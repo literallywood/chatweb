@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'w95fa';
+  src: local('w95fa'), url('/public/fonts/w95fa.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sysfont';
+  src: local('sysfont'), url('/public/fonts/sysfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.home {
+  background-image: url(/public/al.png);
+  height: 100vh;
+  background-position: 190px 0;
+}
+
+.login {
+  background-color: black;
+  height: 100vh;
+}
+
+.chats {
+  background-color: red;
+  height: 100vh;
+} 
